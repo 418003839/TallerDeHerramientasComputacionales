@@ -1,0 +1,74 @@
+
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+
+
+%Aquí inicia la portada de mi documentos
+\title{\Huge Taller de Herramientas Computacionaes}
+\author{Jorge S. Martínez Villafan}
+\date{Enero 14, 2019}
+
+\begin{document}
+\maketitle
+%includegraphics[scale=0.4]{1.png}
+\newpage
+\title{Segundo día de clases}
+
+\textbf{En el segundo día del curso iniciamos probando los comando que vimos en el día anterior, pudimos saber la utilidad  de varios comandos como:}
+
+
+\begin{enumerate}
+	\item touch /tmp/algo crea un archivo vacio
+	\item ls - l /tmp/algo arroja información sobre permisos
+	\item chmod 751 /tmp/algo cambia los permisos de usuarios, grupos y todos
+	\item /top muestra información sobre la computadora como CPU y su actividad
+	\item cd/ muestra el directorio de raíz
+	
+La clase prosiguió con una explicación tanto del profesor como el de la ayudante Karla sobre qué era Git Hub:
+Github es un servidor que permite bajar, subir, compartir e intercambiar información de la nube, bastante utilizado por los programadores.
+
+Todos los alumnos nos registramos en la página de github utilizando nuestros correos de ciencias y nuestro numero de clave: 
+utilizando los siguientes comandos en la terminal de Linux
+
+	
+	\begin{enumerate}
+		\item git config --global user.email "ejemplo@ciencias.unam.mx"
+		\item git config --global user.name "numero de cuenta"
+
+		\end{enumerate}
+Si queremos bajar nuestra información a una computadora nueva, lo único que debemos hacer, una sola vez, es poner el comando "git clone", pegar el link de nuestro respotirio de github y así se descargarán nuestros archivos a la computadora deseada
+
+Algunos otros comandos del github que vimos durante la clase del martes pasado fuero
+	
+	\begin{enumerate}
+		\item cd "nombre de la carpeta deseada" para abrir una carpeta
+		\item ls para visualizar lo que hay en la carpeta anteriormente abierta
+		\item git add * para agregar nuevos archivos al repositorio de github
+		\item git commit para finalizar el agregado
+		 
+	\end{enumerate}
+Para instalar github en fedora, se deben escribir lo siguiente en la terminal: 
+\begin{enumerate}
+	\item git init
+	\item sudo apt-git upgrade
+	\item sudo apt-git install git
+\end{enumerate}
+
+
+Para subir nuevos archivos a github
+Se debe abrir las carpetas donde se tiene los archivos deseados. 
+Escribir en la terminal:
+\begin{enumerate}
+	\item git add *
+	\item git commit
+	\item git push
+	\item usuario
+	\item contraseña
+\end{enumerate}
+
+\end{enumerate}
+\end{document}

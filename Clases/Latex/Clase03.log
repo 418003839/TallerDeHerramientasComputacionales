@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2019.1.14)  15 JAN 2019 00:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2019.1.14)  16 JAN 2019 01:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Ejercicio1.tex
-(./Ejercicio1.tex
+**Clase03.tex
+(./Clase03.tex
 LaTeX2e <2017-04-15>
 Babel <3.9r> and hyphenation patterns for 3 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -455,9 +455,8 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@toks=\toks22
 \enit@inbox=\box28
 \enitdp@description=\count100
-)
-(./Ejercicio1.aux)
-\openout1 = `Ejercicio1.aux'.
+) (./Clase03.aux)
+\openout1 = `Clase03.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
@@ -471,7 +470,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
-
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count101
@@ -537,19 +535,19 @@ e
 [1
 
 {/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] [2]
-(./Ejercicio1.aux) ) 
+(./Clase03.aux) ) 
 Here is how much of TeX's memory you used:
- 3127 strings out of 494941
- 40365 string characters out of 6180918
- 104500 words of memory out of 5000000
- 6399 multiletter control sequences out of 15000+600000
+ 3126 strings out of 494941
+ 40322 string characters out of 6180918
+ 105382 words of memory out of 5000000
+ 6398 multiletter control sequences out of 15000+600000
  6207 words of font info for 23 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 37i,7n,35p,241b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Ejercicio1.pdf (2 pages, 36544 bytes).
+ 37i,7n,35p,241b,202s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on Clase03.pdf (2 pages, 41337 bytes).
 PDF statistics:
  23 PDF objects out of 1000 (max. 8388607)
  15 compressed objects within 1 object stream

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2019.1.14)  15 JAN 2019 00:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2019.1.14)  16 JAN 2019 00:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -534,8 +534,19 @@ e
 ))
 [1
 
-{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] [2]
-(./Clase01.aux) ) 
+{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (10.47496pt too wide) in paragraph at lines 31--39
+\OT1/cmr/m/n/12 Tambi^^Sen se nom-braron dis-tin-tos lengua-jes de pro-gra-maci
+^^Son: python,
+ []
+
+
+Overfull \hbox (9.13054pt too wide) in paragraph at lines 31--39
+\OT1/cmr/m/n/12 graci^^Son Por ejem-plo las dis-tin-tas ver-siones de linux que
+ son: Ubuntu,
+ []
+
+[2] (./Clase01.aux) ) 
 Here is how much of TeX's memory you used:
  3131 strings out of 494941
  40380 string characters out of 6180918
@@ -544,10 +555,11 @@ Here is how much of TeX's memory you used:
  6207 words of font info for 23 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  37i,7n,35p,275b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Clase01.pdf (2 pages, 42824 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+>
+Output written on Clase01.pdf (2 pages, 42832 bytes).
 PDF statistics:
  23 PDF objects out of 1000 (max. 8388607)
  15 compressed objects within 1 object stream

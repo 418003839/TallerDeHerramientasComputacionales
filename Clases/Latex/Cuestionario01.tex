@@ -1,0 +1,122 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+
+%Aquí inicia la portada de mi documentos
+\title{\Huge Taller de Herramientas Computacionaes}
+\author{Jorge S. Martínez Villafan}
+\date{Enero 11, 2019}
+
+\begin{document}
+\maketitle
+%includegraphics[scale=0.4]{1.png}
+\newpage
+\title{Cuestinario}
+
+\begin{enumerate}
+	\item Menciona algunos sistemas operativos\\
+R: Windows, Linux, iOs
+\item Menciona algunos lenguajes de programación\\
+R: Python, C, C++, java
+\item Menciona las distintas versiones de Linux\\
+R: Ubuntu, Fedora,Debian y Slakw.
+\item ¿Qué es un bit?\\
+R: es un cero o un uno, debido al sistema binaro en el que trabajan las computadoras
+\item Menciona los tres tipos de permisos que exiten en Linux\\
+	Usuario (rwx), Grupo (rw-) y Todos (r--)
+\item ¿Qué es un shell?\\
+Un interprete de comandos
+\item ¿Qué es un PATH?\\
+Una variable de entorno
+\item ¿Que hace el comando touch /tmp/algo?\\ 
+Crea un archivo vacio
+\item ¿Y el comando ls - l /tmp/algo?\\ 
+Arroja información sobre permisos
+\item ¿El comando chmod 751 /tmp/algo?\\
+Cambia los permisos de usuarios, grupos y todos
+\item ¿El comando /top qué hace?\\ 
+Muestra información sobre la computadora como CPU y su actividad
+\item ¿y el comando cd/?\\ 
+Muestra el directorio de raíz
+\item ¿Con que comando puedo ver el contenido de un directorio?\\
+Con el comando ls
+\item ¿Son importantes el uso de minusculas y mayusculas al escribir en la terminal de Linux?\\
+Sí, se debe ser cuidadoso porque las mayúsculas y minúsculas son distintos simbolos para la terminal
+\item ¿Qué es github?
+Un servidor que permite bajar, subir, compartir e intercambiar información de la nube, bastante utilizado por los programadores.
+\item ¿Cómo instalar github en Fedora?\\
+git init\\
+sudo apt-git upgrade\\
+sudo apt-git install git\\
+\item ¿Cómo subir un archivo a github?\\
+ git add *\\ git commit\\ git push\\usuario\\contraseña
+\item ¿Como clonamos nuestro repositorio en una maquina nueva?\\
+Con el comando git clone y pegando el link de nuestro repositorio de github
+\item ¿Cómo deben ser guardados los archivos generados en latex?\\
+Con .tex
+\item ¿Y los de python?\\
+Con .py
+\item ¿Con qué comando creamos una nueva carpeta?\\
+Con mkdir - p
+\item ¿Para qué sirve el comando wq?\\
+Para guardar un comentario y salir
+\item ¿Y el comando q!?\\
+Para salir sin guardar
+\item ¿Cómo instalar python en fedora?\\
+Con el comando \$] dnf install pyhton tools
+\item ¿Cómo sabemos con que versión de python trabajamos?\\
+\$] python --visor\\
+\item ¿Con que comando abrimos python desde la terminal?\\
+Con idle
+\item ¿Cómo hacemos que pyhton deje de arrojarnos divisiones enteras?\\
+Basta con agregar un .0 al divisor o dividendo
+\item ¿Cómo escribir un comentario en python?\\
+Con un \# presediendo al comentario
+\item ¿Qué debemos poner al inicio del archivo si queremos escribir con carácteres que no existen en el inglés?\\
+\#\_*\_ conding: uft-8 \_*\_
+\item ¿Qué es una cadena en python?\\
+Un conjunto de carácteres que van delimitados por una comilla, comilla doble o triple
+\item ¿Qué son los flotantes?\\
+Una representación de los numeros reales en Python
+\item  ¿Para qué siver print en Python?\\ 
+Sirve para mostrar lo que pedimos
+\item ¿Para qué siver el \%?\\ 
+Sirve para desplegar una variable a través de print. Se combina con varias letras (E,f,g), para desplegar un valor en distintos formatos
+\item ¿Y el comando \%g?\\ 
+Para mostrar la variable en el formato numerico más corto posible
+\item ¿el comando\%E qué hace?\\ 
+Muestra el formato en notación cientifica
+\item ¿Y el comando \% .f?\\
+ Muestra un valor con flotante con dos de su decimales (puede ser cualquier valor decimal)
+\item ¿Qué pasa con el comando \%10.f?\\ 
+Muestra un numero flotante con dos decimales recorrido 10 espacios a la derecha
+\item ¿Cómo desplegamos el valor en formato flotante?\\
+Con \%f
+\item ¿Qué hacemos con \%s?\\
+Si tengo una variable que contenga una cadena y quiero mostrar su contenido con print se utiliza este comando
+\item ¿Qué comando usamos para sacar raíces cuadradas?\\
+ \$] math.sqrt
+\item  ¿Cómo definimos una función?\\
+con el comando def
+\item ¿Cómo idicamos que regrese algún valor? \\
+Con return  
+\item ¿Cómo iniciamos un documento nuevo en TeXstudiio? \\ Con documentclass
+\item ¿Cómo ponemos la letra que deseamos?\\
+Basta con poner [letterpaper,numero,lugar]
+\item ¿Cómo importamos algo en TeXstudio?\\
+Con usepackage{amsmath} 
+\item ¿Para qué sirve usepackage{graphicx}\\
+Para las graficas 
+\item ¿Y usepackage{xcolor}?\\
+Para poder utilizar letras de colores
+\item ¿Qué debemos hacer para poder escribir carácteres que no existen en el inglés?\\
+Poner usepackage[utf8]{inputenc}
+\item ¿Para qué sirve usepackage{enumitem}\\ 
+Para poder enumerar 
+\item ¿Cómo añadimos un comentario?\\
+Con \%
+\end{enumerate}
+\end{document}
