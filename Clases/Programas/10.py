@@ -30,6 +30,6 @@ print gradosC
 print S
 gradosC = []
 for i in range(0,21):
-    C = -20 + i*2.5
+    C = -20 + i*2.5a
     gradosC.append(C)
 print gradosC
