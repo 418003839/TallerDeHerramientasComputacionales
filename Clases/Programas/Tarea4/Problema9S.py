@@ -1,10 +1,10 @@
+#!/usr/bin/python3.6.7
 # _*_ coding utf-8 _*_
-#Sumar los numeros impares de 1 al 50
+"""
+Jorge S Martínez Villafan, 418003839
+Taller de herraientas computacionales
+Contador de números primos
+"""
 
-total = 0
-i= 1
-while i<50:
-    i+=2
-    total+=i
-
-print (total)
+from Problema9 import esPrimo
+n = int(input("ingrese un número natural: "))

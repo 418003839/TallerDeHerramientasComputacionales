@@ -1,9 +1,10 @@
+    
+#!/usr/bin/python3.6.7
 # _*_ coding utf-8 _*_
-#Hacer un contador del 0 al 50
+"""
+Jorge S Martínez Villafan, 418003839
+Taller de herraientas computacionales
+Programa de contraseñas, la contraseña es: "password"
+"""
 
-contador = 0
-while (contador < 50):
-    contador = contador + 1
-    print(contador)
-    
-    
+from Problema8 import Contraseña

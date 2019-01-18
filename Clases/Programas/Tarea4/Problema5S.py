@@ -1,9 +1,12 @@
+#!/usr/bin/python3.6.7
 # _*_ coding utf-8 _*_
-#Calcular la suma desde i=1 hasta n de i
-#Calcule la suma de 1+2...+100
-def sumar(n):
-    return (n* (n+1))/2
+"""
+Jorge S Martínez Villafan, 418003839
+Taller de herraientas computacionales
+Suma desde i igual a uno hasta n
+"""
+
+from Problema5 import sumar
 n = int(input("Numero de naturales a sumar"))
-suma = sumar (n)
-print ("resultado: ", suma)
+
 

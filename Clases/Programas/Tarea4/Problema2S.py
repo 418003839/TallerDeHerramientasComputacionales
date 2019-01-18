@@ -1,9 +1,12 @@
+#!/usr/bin/python3.6.7
 # _*_ coding utf-8 _*_
-#Dados dos tiempos calcular la posición de una pelota
-v0 = 34
-g = 9.81
-t = 4.3
-y = v0*t - 1.0/2*g*t**2
+""""
+Jorge S Martínez Villafan, 418003839
+Taller de herraientas computacionales
+Dado dos tiempos el programa nos devuelve el valor de su posición y
+"""
+
+from Problema2 import y
 
 t= int(input("tiempo 1: "))
 t1= int(input("termpo 2: "))

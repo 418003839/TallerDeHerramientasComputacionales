@@ -1,17 +1,12 @@
+#!/usr/bin/python3.6.7
 # _*_ coding utf-8 _*_
-#Encontrar el mínimo común divisor de dos número 15, 20
-MCD = False
-x = int(input("x"))
-y = int(input("y"))
+"""
+Jorge S Martínez Villafan, 418003839
+Taller de herraientas computacionales
+Con el método de euclides calculamos el MCD de dos números
+"""
+from Problema1 import euc
+num1 = int(input("Anota el número menor"))
+num2 = int(input("Anota el número mayor"))
 
-if x >0 and y > 0 and x !=y:
-    i = x
-
-    while not MCD and i >1:
-        if x % i == 0 and y % i ==0:
-            print("MCD es",i)
-            MCD = True
-
-        else:
-            i -=1
-
+print("El MCD es:", euc(num1, num2))

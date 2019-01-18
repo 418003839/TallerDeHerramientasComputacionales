@@ -1,6 +1,12 @@
+#!/usr/bin/python3.6.7
 # _*_ coding utf-8 _*_
-#Calcular el promedio de 10 datos
-#calcule el promedio desde 1,2,3...8,9,10
+"""
+Jorge S Martínez Villafan, 418003839
+Taller de herraientas computacionales
+Suma desde i igual a uno hasta n
+"""
+
+from Problema6 import k
 a = int(input("dato1: "))
 b = int(input("dato2: "))
 c = int(input("dato3: "))
@@ -12,9 +18,4 @@ h = int(input("dato8: "))
 i = int(input("dato9: "))
 j = int(input("dato10: "))
 
-k = int(a + b + c + d + e + f + g + h + i + j)
 
-promedio = (k / 10)
-
-print(promedio)
- 

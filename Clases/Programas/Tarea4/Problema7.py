@@ -1,13 +1,24 @@
 # _*_ coding utf-8 _*_
-list = [1, 2, 3, 4 ,5 ,6 ,7 ,8 ,9 ,10]
-suma = 0
-i = 0
-for elemento in list:
-    suma += elemento
-    i += 1
 
-promedio = suma / i
-print (max(list))
-print (min(list))
-print(promedio)
+
+lista = []
+DiezDatos  = int(input("DiezDatos: "))
+mayor = 0
+menor = 0
+suma = 10
+i= 1
+
+while (DiezDatos > 0):
+    numero = (input("Numero #" + str(i) + ": "))
+    lista.append(numero)
+    i = i + 1
+    DiezDatos = DiezDatos - 1
+
+promedio = suma / i 
+mayor = (max(lista))
+menor = (min(lista))
+
+print ("Mayor: ", mayor)
+print ("Menor: ", menor)
+print (promedio)
 

@@ -8,7 +8,7 @@ t= int(input("tiempo 1: "))
 t1= int(input("termpo 2: "))
 
 
-y = v0*t - 1.0/2*g*t1**2
+y= v0*t - 1.0/2*g*t1**2
 print(y)
 
 
