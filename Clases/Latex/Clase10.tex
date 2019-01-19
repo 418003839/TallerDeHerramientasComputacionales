@@ -1,0 +1,50 @@
+%\documentclass{article}
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\graphicspath{/home/thc/Documentos/TallerDeHerramientasComputacionales/TallerDeHerramientasComputacionales/Clases/Latex/Imágenes/}
+
+%Aquí inicia la portada de mi documentos
+\title{\Huge Taller de Herramientas Computacionaes}
+\author{Jorge S. Martínez Villafan}
+\date{Enero 18, 2019}
+
+\begin{document}
+\maketitle
+%includegraphics[scale=0.4]{1.png}
+\newpage
+\title{Clase número diez}
+
+\textbf Empezamos la clase número diez resolviendo dudas acerca de la tarea que fue dejada en días pasadas. Utilizamos nuevos comandos en el sheel:
+\begin{enumerate}
+\item += sirve para hacer una suma y arroje el resultado
+\item != sirve como "diferente de"
+\item *= sirve para hacer una multiplicación y arroje el resultado
+\item /= sirve para hacer una divisisón y arroje el resultado
+\item bool sirve para saber que contiene una cadena, da falso si es vacia, da true si tiene algo. También se puede hacer una asignación previa, bool de la asignación dará truesi si el valor de la asignación es distinto de 0, de lo contrario dará false
+\item L.append para agregar elementos a un lista, es del tipo objeto metodo
+\item L.append /([]) para meter una lista dentro de otra
+\item L[X] Para saber el elemento numero del indice x 
+\item len(l) Para saber cuantos elementos tiene una lista
+\item L[X].append Se puede agregar más valores a la lista dentro de otra lista
+\item L.insert s para agregar algo antes del indice que queramos, el indice es la posición de un elemento de la lista
+\item r=L.pop() se saca el ultimo elemento de la lista
+\item r=L.pop(x) elimina el elemento del indice x
+\item L.extend es para agregar varios elementos a la lista
+
+\end{enumerate} 
+Continuamos la clase y el profesor nos pidió hacer un ejercicio con while, bool, para poder vaciar una lista.\\ 
+También quedó claro que un indice se empieza a correr desde 0,1,2... y un posición corre desde 1,2,... por lo tanto el numero de indice siempre es el numero de posición menos uno\\
+
+El profesor nos pidió agregar a los diez problemas algo de las listas visto hoy.\\
+Empezamos a trabajar con el ejercicio de convertir los grados celsius en farenheit y viceversa. Hicimos el mismo ejercicio pero en lugar de while se uso for \\
+Y después se hizo interactivo, para meter los valores, input y suplirlo por la lista\\
+Posteriormente empezamos a trabajar con el metodo range(X) crea una lista con los indices de tamaño x
+Se puede dar un intervalo con range x, es un intervalo abierto como en matemáticas\\
+Ejemplo: for C in range(-20,45,5) gradosC.append(C): crea una lista desde menos 20 a 40 de 5 enn cinco\\
+De tarea quedó definir la funcion range f. \\
+La segunda semana del curso finalizó.
+\end{document}
