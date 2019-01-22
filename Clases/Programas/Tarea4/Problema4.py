@@ -4,5 +4,5 @@ def fibo(n):
     while a < n:
         print(a, end=" ")
         a, b = b, a+b
-    print()
-fibo(79999)
+fibo(5)
+print 
