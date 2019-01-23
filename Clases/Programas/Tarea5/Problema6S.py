@@ -3,7 +3,6 @@
 """
 Jorge S Martínez Villafan, 418003839
 Taller de herraientas computacionales
-Con el método de euclides calculamos el MCD de dos números
+Obteniendo el promedio de diez datos con listas
 """
-
-from Problema6 import*
+from Problema6 import *

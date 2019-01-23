@@ -3,6 +3,6 @@
 """
 Jorge S Martínez Villafan, 418003839
 Taller de herraientas computacionales
-Con la función de para calcular la posición de un objeto, utizo su indices con datos
+Programa de contraseñas, muestra la ultima contraseña ingresada en una lista
 """
-from Problema2 import *
+from Problema8 import *

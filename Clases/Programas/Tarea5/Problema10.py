@@ -1,16 +1,15 @@
-Comprobar = True
 Calificaciones = []
-while Comprobar:
+a =Calificación
+i = 1
+while i < 3:
         Calificación =int(input("calificación: "))
-        if Calificación < 0:
-                Comprobar = False
-        
         if Calificación>=6:
                 print("Aprobado")
         else:
                 
                 print ("reprobado")
+                break
 
-
-Calificaciones.append()
+                
+Calificaciones.append([a])
 print

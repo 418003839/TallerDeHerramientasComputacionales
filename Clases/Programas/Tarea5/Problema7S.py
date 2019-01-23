@@ -3,6 +3,6 @@
 """
 Jorge S Martínez Villafan, 418003839
 Taller de herraientas computacionales
-Con la función de para calcular la posición de un objeto, utizo su indices con datos
+Mediante el uso de listas se usa para sacar promedio, max y min
 """
-from Problema2 import *
+from Problema7 import *

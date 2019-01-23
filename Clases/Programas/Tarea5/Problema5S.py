@@ -3,6 +3,6 @@
 """
 Jorge S Martínez Villafan, 418003839
 Taller de herraientas computacionales
-Con la función de para calcular la posición de un objeto, utizo su indices con datos
+Con la formula gaussina se puede calcular la suma hasta n elemento, el resultado se muestra en una lista
 """
-from Problema2 import *
+from Problema5 import *

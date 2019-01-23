@@ -20,4 +20,4 @@ def mostrarListas(gradosC, gradosF):
         print "%5.1f %5.1f" % (C, F)
 def mostrarLastas1(gradosC, gradosF):
     for C, F in zip(gradosC, gradosF):
-        print "%5 %5.1" & (C,F)
+        print "%5 %5.1" % (C,F)

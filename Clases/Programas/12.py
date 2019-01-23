@@ -6,8 +6,8 @@ alumnos.append([6, 9, 10, 8, 9, 10, 10, 9])
 for i in range(len(alumnos)):
     for j in range(len(alumnos[i])):
         calificacion = alumnos[i][j]
-        print "%4d" % calificacion,
-    print
+        print '%4d' % calificacion,
+    print()
 
 for alumno in alumnos:
     for calificion in alumno:

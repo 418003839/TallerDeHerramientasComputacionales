@@ -3,6 +3,6 @@
 """
 Jorge S Martínez Villafan, 418003839
 Taller de herraientas computacionales
-Con la función de para calcular la posición de un objeto, utizo su indices con datos
+La funcio fibo calcula el valor n que se le indica y lo manda en una lista
 """
-from Problema2 import *
+from Problema4 import *

@@ -3,6 +3,6 @@
 """
 Jorge S Martínez Villafan, 418003839
 Taller de herraientas computacionales
-Con la función de para calcular la posición de un objeto, utizo su indices con datos
+Se definen las funciones y se regresan los valores una lista de valores de C y F
 """
-from Problema2 import *
+from Problema3 import *
