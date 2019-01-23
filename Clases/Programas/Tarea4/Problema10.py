@@ -2,11 +2,11 @@
 Comprobar = True
 
 while Comprobar:
-        Calificación =int(input("calificación: "))
-        if Calificación < 0:
+        Calificacin =int(input("calificación: "))
+        if Calificacin < 0:
                 Comprobar = False
         
-        if Calificación>=6:
+        if Calificacin>=6:
                 print("Aprobado")
         else:
                 
