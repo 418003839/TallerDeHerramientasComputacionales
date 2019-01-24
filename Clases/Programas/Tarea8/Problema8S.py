@@ -4,7 +4,7 @@
 Jorge S Martínez Villafan, 418003839
 Taller de herraientas computacionales
 Escribí el codigo del ejercicio 8, pero tampoco hace nada
-Un buen nombre sería: Nada2.0
+El programa regresa el valor absoluto 
 """
 
 from Problema8 import *

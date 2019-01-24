@@ -1,4 +1,5 @@
-def f(1):
+l = [1,2,6,8]
+def f(l):
     a = 0
     b = 0
 
@@ -8,3 +9,4 @@ def f(1):
         else:
             a-= i
     return a + b
+
