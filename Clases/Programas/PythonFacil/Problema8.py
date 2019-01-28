@@ -1,5 +1,5 @@
-l =[3,5,8,9]
-def g(l):
+l =[3,5,8,9] #creo una lista
+def g(l): #copio el codigo del libro
     a = 0
 
     for i in l:

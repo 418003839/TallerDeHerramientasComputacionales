@@ -1,5 +1,5 @@
-l = [1,2,6,8]
-def f(l):
+l = [1,2,6,8] #creo una lista
+def f(l): #copio el codigo del libro
     a = 0
     b = 0
 

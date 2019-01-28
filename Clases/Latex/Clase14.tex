@@ -1,0 +1,110 @@
+
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+
+%Aquí inicia la portada de mi documentos
+\title{\Huge Taller de Herramientas Computacionaes}
+\author{Jorge S. Martínez Villafan}
+\date{Enero 24, 2019}
+
+\begin{document}
+\maketitle
+\newpage
+\title{Clase número catorce}
+
+\textbf Empezamos la clase numero catorce resolviendo dudas de la tarea de los ejercicios de la clase\\
+Le pedimos ayuda al profesor para resolver el problema del laberinto  y explicó nuevamente cómo debía de hacerse, y con los pasos que siempre se utilizaban en el curso, desde analizar, ejemplificar, codificar etc.\\
+De la pizarra pasamos a la computadora y nos fue guiando como es que debe de resolverse:\\
+El codigo fue el siguiente: \\
+\begin{verbatim}
+
+def resolver(L,e):
+print e
+n = len(L[0])
+m = len(L)
+x = e[0]
+y = e[1]
+if y==n-1 or x == m-1: 
+return e[0]+1,e[1]+1
+else:
+if L[x][y+1] == False:
+e = [x, y+1]
+return resolver(L,e)
+elif L[x+1][y] == False:
+e=[x+1,y]
+return resolver(L,e)
+else:
+print ("ya no puede avanzar mas")
+
+L= [[True, True, True, True],
+[False, False, False,True],
+[True, True, False, True]]  
+e=[1,0]
+r=resolver(L,e)
+import numpy as np
+print(np.matrix(L))
+\end{verbatim}
+Con algunas condiciones más dentro del laberinto el profesor nos pidió que trataramos de generar el codigo para poder resolver laberintos más complejos\\
+
+Empezamos a trabajar con una problema sobre las cadenas de ADN y generamos el siguiente código 
+\begin{verbatim}
+
+def contar_v1(adn, base):
+adn=list(adn)
+i= 0
+for c in adn:
+if c == base:
+i += 1
+return i
+
+def contar_v2(adn, base):
+adn=list(adn)
+i= 0
+for c in adn:
+if c == base:
+i += 1
+return i
+
+def contar_v3(adn, base):
+i= 0
+for j in range(len(adn)):
+if adn[j] == base:
+i += 1
+return i
+
+def contar_v4(adn, base):
+adn=list(adn)
+i = 0
+j = 0 
+while j < len(adn):
+if adn[j] == base:
+i += 1
+j +=1
+return i
+
+adn="ATGCGACCTAT"
+base="C"
+print contar_v1(adn, base)
+print contar_v2(adn, base)
+
+n= contar_v2(adn, base)
+print n
+print "%s aparece %d en %s" % (base, n, adn)
+print "{base} aparece {n} veces en {adn}" .format(base=base, n=n, adn=adn)
+print contar_v2(adn, base)
+print contar_v3(adn, base)
+print contar_v4(adn, base)
+\end{verbatim}
+Este codigo nos sirvió para que nos explicara lo que hace el comando \color{blue} sum \color{black} que sobre una lista bool solo nos devuelves los valores que son "True"\\
+
+La penultima clase del curso finalizó.
+%Utilizo \begin{verbatim} para poder escribir los codigos sin que haya problemas por los carácteres que se usan en TeXstudio
+%Utilizo \\ para hacer un salto de línea
+%Utilizo \color{color} para cambiar de color a las letras
+%utilizo \begin{enumerate} para hacer una lista enumerada
+
+\end{document}

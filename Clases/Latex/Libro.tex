@@ -1,0 +1,510 @@
+\documentclass{book}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{biblatex}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\title{ Taller de Herramientas Computacionaes}
+\author{Jorge S. Martínez Villafan}
+\date{Enero 25, 2019}
+
+\begin{document}
+\maketitle
+%Aquí inicia el indice del contenido del texto.
+\tableofcontents
+\section*{Introdución} El libro es para fortalecer el conocimiento de la materia taller de herramientas computacionales.
+
+
+\chapter{Clase uno}
+\section{Bitacora de la clase número uno}
+\chapter{Clase dos}
+\section{Bitacora de la clase número dos}
+\chapter{Clase tres}
+\section{Bitacora de la clase número tres}
+\chapter{Clase cuatro}
+\section{Bitacora de la clase número cuatro}
+\chapter{Clase cinco}
+\section{Bitacora de la clase número cinco}
+\chapter{Clase seis}
+\section{Bitacora de la clase número seis}
+\chapter{Clase siete}
+\section{Bitacora de la clase número siete}
+\chapter{Clase ocho}
+\section{Bitacora de la clase número ocho}
+\chapter{Clase nueve}
+\section{Bitacora de la clase número nueve}
+\chapter{Clase diez}
+\section{Bitacora de la clase número diez}
+\chapter{Clase once}
+\section{Bitacora de la clase número once}
+\chapter{Clase doce}
+\section{Bitacora de la clase número doce}
+\chapter{Clase trece}
+\section{Bitacora de la clase número trece}
+\chapter{Clase catorce}
+\section{Bitacora de la clase número catorce}
+
+%Aquí inician los capitulos del lubro
+\chapter{Clase numero uno}
+\textbf{Lo que hice en esta primera clase del curso fue:}
+\begin{enumerate}
+	\item  El curso conta de lo siguiente:
+	\begin{enumerate}
+		\item Hacer un bitacora diariamente de lo visto en clase, exponer sus dudas
+		\item Quince asistencias totales durante las 3 semanas que dura el curso
+		\item Exámenes al finalizar cada semana, es decir, los viernes
+		\item Al final del curso haremos una investigación a cerca del tema que nos parezca conveniente o del agrado del alumno, en el cual se aplique lo visto durante las quince clases del curso. Se deberá hacer una presentación a cerca del tema elegido
+		
+		Para el curso el profesor nos recomendó un libro que podemos encontrar en el siguiente enlace: www.blibliotecas.unam.mx 
+		
+		La clase prosiguió y se nombraron algunas sistemas operativos entre ellos: Windows, Linux (el que se usará para el curso), iOs
+		También se nombraron distintos lenguajes de programación: python, C, C++, java entre otros.
+		El profesor nos dio información básica acerca de la computación en general como del lenguaje de progración
+		Por ejemplo las distintas versiones de linux que son: Ubuntu, Fedora,Debian y Slakw.
+		También nos explicó que un bit es un uno o un cero, ya que así, en sistema binario es como se representa la información dentro de una computadora
+		En Linux existen tres tipos de permisos: Usuario (rwx), Grupo (rw-) y Todos (r--)
+		También nos dio algunos comandos para ejecutar en la terminal
+		\begin{enumerate}
+			\item touch /tmp/algo
+			\item ls - l /tmp/algo
+			\item chmod 751 /tmp/algo
+			\item /tmp/algo
+			
+			Tanto en windows como en Linux existen las variantes de entorno conociadas como PATH
+			Algunos comandos para utilizar el path son "set" que sirve para ver la variante de entorno y "pwd" para saber en qué dirección se encuentra. 
+			Finalizamos la clase hablando un poco acerca de pyton.
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}	
+
+\chapter{Clase número dos}
+\textbf{En el segundo día del curso iniciamos probando los comando que vimos en el día anterior, pudimos saber la utilidad  de varios comandos como:}
+
+
+\begin{enumerate}
+	\item touch /tmp/algo crea un archivo vacio
+	\item ls - l /tmp/algo arroja información sobre permisos
+	\item chmod 751 /tmp/algo cambia los permisos de usuarios, grupos y todos
+	\item /top muestra información sobre la computadora como CPU y su actividad
+	\item cd/ muestra el directorio de raíz
+	
+	La clase prosiguió con una explicación tanto del profesor como el de la ayudante Karla sobre qué era Git Hub:
+	Github es un servidor que permite bajar, subir, compartir e intercambiar información de la nube, bastante utilizado por los programadores.
+	
+	Todos los alumnos nos registramos en la página de github utilizando nuestros correos de ciencias y nuestro numero de clave: 
+	utilizando los siguientes comandos en la terminal de Linux
+	
+	
+	\begin{enumerate}
+		\item git config --global user.email "ejemplo@ciencias.unam.mx"
+		\item git config --global user.name "numero de cuenta"
+		
+	\end{enumerate}
+	Si queremos bajar nuestra información a una computadora nueva, lo único que debemos hacer, una sola vez, es poner el comando "git clone", pegar el link de nuestro respotirio de github y así se descargarán nuestros archivos a la computadora deseada
+	
+	Algunos otros comandos del github que vimos durante la clase del martes pasado fuero
+	
+	\begin{enumerate}
+		\item cd "nombre de la carpeta deseada" para abrir una carpeta
+		\item ls para visualizar lo que hay en la carpeta anteriormente abierta
+		\item git add * para agregar nuevos archivos al repositorio de github
+		\item git commit para finalizar el agregado
+		
+	\end{enumerate}
+	Para instalar github en fedora, se deben escribir lo siguiente en la terminal: 
+	\begin{enumerate}
+		\item git init
+		\item sudo apt-git upgrade
+		\item sudo apt-git install git
+	\end{enumerate}
+	
+	
+	Para subir nuevos archivos a github
+	Se debe abrir las carpetas donde se tiene los archivos deseados. 
+	Escribir en la terminal:
+	\begin{enumerate}
+		\item git add *
+		\item git commit
+		\item git push
+		\item usuario
+		\item contraseña
+	\end{enumerate}
+
+
+\chapter{Clase número tres}
+\textbf{Al inicio de la tercer clase del curso se empezó a hablar de los servidores y sus clientes, por ejemplo Faceebook o el mismo github}
+
+Se hablaron sobre las distintas terminaciones de algunos archivos, por ejemplo los archivos generados en Latex deben ir terminados con un .tex y los archivos generados en Python con un .py
+
+La clase prosiguió haciendo, basicamente, un repaso de lo visto en la clase numero dos. Hicimos ejercicios similares a los de la clase pásada. 
+El profesor nos enseñó a hacer carpetas utilizando la terminas, a su vez, estas carpetas servirían para guardar los archivos que hicieramos durante el curso. Los pasos para hacer dichas carpetas son las siguientes:
+\begin{enumerate}
+	\item escribir en la termina mkdir - p directorio/ directorio esto crea un directorio para todas, es decir un directorio padre
+	\item nombrar las carpetas que queremos crear 
+	\item abrir las carpetas creadas con cd "nombre de la carpeta" por si queremos crear otra carpeta dentro de la abierta
+	
+	
+\end{enumerate}
+
+Estas carpetas fueron subidas al github, para saltarnos el paso de escribir el comentario, basta con poner git commit -m "comentario".
+Para salir de la pantalla del comentario se presiona la tecla "esc", seguido por shit más dos puntos y finalizamos con "wq" si queremos guardar y salir o "q!" si queremos no guardar y salir.
+
+Posteriormente vimos lo que era el "vi" que crea un documento y creamos un readme, con el comando "readme.md"
+
+
+La clase finalizó con el profesor pidiendonos llevar un problema de fisica para la clase próxima.
+
+\chapter{Clase numero cuatro}
+\textbf La cuarta clase del curso la iniciamos trabajando con un problema en que el profesor llevo, similar al que nos había encargado la clase pásada, en él nos pedían determinar la posición de un objeto si sabemos la formula para calcularla. El profesor desglosó cada asunto que se pudiera presentar en el problema, desde si podía ser negativa, como su función. La analizó desde un punto matemático como desde un objeto para darle explicaciones a la computadora de lo que debe hacer. El profesor hizo un gran enfasis en esto ultimo ya que la computadora entiende exactamente lo que se le dice, es por ello que debemos ser claros y explicar detalladamente lo que queremos que haga
+
+Las personas que no utilizaban las maquinas de la escuela tuvieron que instalar python. Fedora ya viene con python pero para poder abrirlo se deben escribir en la terminal el siguiente comando: \$] dnf install pyhton tools \\ 
+
+Una vez con python todos, pudimos ver la versión de python escibiendo el comando \$] python --visor\\
+Posteriormente abrimos pyton para meter la formula del problema del profesor, pyton se abre con el comando "idle" en la terminal. Cuando abrimos pyton prosedimos a meter los datos que teníamos, hubo un pequeño problema con el resultado debido a que pyton nos arrojaba divisiones enteras, para arreglar este problema solo se debe agredar un .0 después del divisor o dividendo. 
+Durante la resolución del ejercicio el profesor nos dio varios tips acerca de como escribir en pyton por ejemplo para agregar un comentario éste debe ser presedido por el signo gato (\#), o para escribir en español correctamente, es decir, que pyton reconozca caracteres que en el inglés no existen, como la dieresis o las tildes, se debe agregar al inicio el siguiente código: \#\_*\_ conding: uft-8 \_*\_
+También nos enseñó que para correr un códgio en pyton debe ir precedido por el comando print
+La clase porsiguió con el profesor dandonos instruciones sobre como realizar una cadena en pyton  
+\begin{enumerate}
+	\item Comilla simple '' sirve para crear una cadena de texto de una línea
+	\item Comilla doble "" sirve para crea una cadena de texto de una línea
+	\item Comilla triple "' sirve para crea una cadena de texto multiple
+	\item ln: para salto de línea
+	
+	NOTA: una cadena es un conjunto de caracteres en pyton que están delimitados por una comilla o comilla doble
+	
+	La clase finalizó realizando la tarea en el salón, con el problema que nos encargó en la clase numero tres debíamos generar un codigo para resolverlo de una manera similar al problema que el profesor resolvió durante la clase. Una vez hecho se subió como es acostumbrado a github.
+
+\chapter{Clase numero cinco}
+\textbf En la clase numero cinco vimos varios comandos de python, que básicamente la explicación de ellos podría resumir gran parte de la clase, los comando fueron los siguientes:
+\begin{enumerate}
+	\item \$] print que sirve para mostrar lo que pedimos, el profesor suele explicarlo, como "piensa en un numero y dime cuál es"
+	\item \$]\% sirve para desplegar una variable a través de print. Se combina con varias letras (E,f,g), para desplegar un valor en distintos formatos
+	\item \$]\%g mostrar la variable en el formato numerico más corto posible
+	\item \$]\%E muestra el formato en notación cientifica
+	\item \$]\% .f muestra un valor con flotante con dos de su decimales (puede ser cualquier valor decimal)
+	\item \$]\%10.f muestra un numero flotante con dos decimales recorrido 10 espacios a la derecha
+	\item \$]\%f desplega el valor en formato flotante
+	\item \$]\%s si tengo una variable que contenga una cadena y quiero mostrar su contenido con print se utiliza este comando
+	\item \$] math.sqrt para sacar raíces cuadradas
+	\item \$] def para definir una función
+	\item \$] return indica que regrese un valor
+\end{enumerate}
+Continuamos la clase con un archivo que copiamos de la pantalla del profesor con ayuda del tiger, bastaba con solo dar clic medio con el raton para poder pegar lo que el profesor subrayó. A dicho archivo tradujimos los comandos que venían en él.
+
+
+La clase prosiguió y fue turno de Karla, quien nos enseñó los primeros pasos para iniciar en Latex
+Nos pidió abrir TeXstudio
+y nos empezó a decir los comandos y para qué sirve cada uno
+\begin{enumerate}
+	\item documentclass[letterpaper, 12pt, oneside] Para iniciar y darle el formato de texto
+	\item usepackage{amsmath} analogo al import en python
+	\item usepackage{graphicx} para las graficas 
+	\item usepackage{xcolor} para poder utilizar letras de colores
+	\item usepackage[utf8]{inputenc} para poder escribir carácteres que no existen en el inglés como la dieresis o las tikdes
+	\item usepackage{enumitem} para poder enumerar 
+	\item \% para poder añadir un comentario, es analogo al \# en python
+\end{enumerate}
+Y eso fue lo último que hicimos en la primer semana del curso
+
+\chapter{Clase número seis}
+\textbf La cuarta clase del curso inició con un probelma, trata de encontrar la raíz cuadrada de un, el problema radicaba en encontrar la raíz de equis, si tenemos dos  figuras geometricas de área "X", la primera era un cuadrado con los lados raíz de equis y la segunda un rectangulo de altura equis y base 1. Todo el grupo dio diversas sugerencias para poder encontrar el valor de equis, finalmente el profe dio el metodo para encontrar el valor de dicha incognita. Haciendo un gran enfasís que en las computadoras es dificíl encontrar el valor exacto, pero podemos encontrar una aproximación precisa que nos sirva (en realidad creo que esto sucede en las computadora y en los humanos ya que nunca sabemos el valor de un numero racional raíz de dos o pi, son algunos ejemplos en donde no se utilizan los valores exactos, solo aproximaciones).\\
+La clase prosiguió con un problema en pyhon, donde definimos una función llamada "vAbsoluto", es decir, el valor absoluto, este ejercicio sirvió como ejemplo para poder utilizar dos comandos muy utiles en python el
+\begin{enumerate}
+	\item if
+	\item else
+	\item return
+\end{enumerate}
+Estos comandos son codiciones:\\
+El comando if, sirve para dar una sentencia, ejemplo: "Si sucede tal cosa" entonces (print) pasa esto\\
+El comando else, es para arrojar otro resultado, si el comando if resulta ser falso\\
+Tanto if como else tiene el mismo valor, es por ello que ambos deben ir a la misma altura del código y en el mismo bloque. Es importante resaltar que se puede utilizar un if, sin un else, pero es imposible colocar un else si un if, ya que else es una especie de negación del "if"\\
+El comando return sirva para que nos devuelva el valor que hemos asigando previamente
+También vimos el comando import que sirve para mostrar lo que deseemos en el bash\\
+
+Después de haber explicado el uso de if y else el profesor nos puso un ejercicio, donde se tenía una diana infinita y al arrojar los dardos nos arrojaba un valor dependiendo del las condernas tanto en x como en y que hubiesemos sacado\\
+La clase finalizó con el profesor dejandonos una tarea del mismo problema de la diana pero con más condiciones, si en el centro de la diana hubiera un circulo de radio 10 y fuera de éste el valor que nos arrojara fuera 100, pero estando delimitado por las otras coordenadas.
+
+\chapter{Clase número siete}
+\textbf La clase numero siete del curso del Taller de Herramientas Computacionales fue el día martes.
+Esta clase inició con ejemplos de como utilizar estructuras de repetición, en este caso se utlizó el comando "while", este comando se encarga de formar un ciclo, primero evalua si la condición dada fue cierta el ciclo se repetirá hasta que le digamos que pare. \\
+Los comando if y else que vimos una clase pásada son muy utiles a la hora de utilizar while, se le puede dar una condición con if para que el ciclo se repita si el "if" fue cierto (aunque realmente también se podría si fue falso), y poner un else para, por ejemplo detener el ciclo. \\
+Es muy importante utilizar los bloques y espacios correctamente en el uso del while. Las condiciones en un bloque while deben ir en las líneas inferiores y estar con cuatro espacios de distancias del inicio de documento. Tanto if como else deben ir dentro del bloque while si éstas son codicones que queremos que el código corra con while. If y else deben estar a la misma altura, pero ambas deben estar en distinta altura de While si pertencen a este comando. \\
+El profesor hizo enfasís en que al momento de dar un asignación, (ejemplo: a=b+c), los espacios no son importantes pero se recomienda ponerlos para poder facilitar la lectura tanto del programador como la del lector\\
+
+La clase prosiguió y fue turno de Karla quién nos enseñó varias cosas que podemos hacer en TeXstudio. \\
+Iniciamos tratando de poner una imagen, pero lamentablemente no se pudo, debido a un problema con la dirección donde se encontraban la imagen que queríamos, aunque algunos pudieron soucionarlo con poner una tilde y cambiar de lugar la ubicación de la imagen\\
+Dejando de lado lo de la imagen, nos enfocamos en cómo colocar expresiones matemáticas en TeXstudio:
+\begin{enumerate}
+	\item \$ \$ sirven para indicar que escribiremos expresiones, matemáticas, existen las "diagonalCorchete" que son analogas al signo de moneda
+	\item \$x\_{2}\$ para poner subindices, en este caso, es equis subindice dos
+	\item \$x\^{2}\$ sirven para poner exponentes, en este caso equis al cuadrado
+	\item \$\\frac{2}{2}\$ sirven para poner fraciones, en este caso, dos partidos dos
+	\item \ begin{bmatrix} sirve para poner matrices, los terminos de éstas deben ir con un \& entre ellos para poder diferenciarlos
+	\item dots puntos suspensivos
+	\item vdots puntos suspensivos  verticales
+	\item sqrt para poder escribir raices (similar a pyhon)
+	\item \$\\int\_{a}\^{b}x\^2 dx, para poder escribir integrales, en este caso, la integral de a a b, de equis cuadrada
+	
+	
+\end{enumerate}
+La clase finalizó
+
+\chapter{Clase número ocho}
+\textbf En la clase del miercoles, es decir la clase numero siete del curso iniciamos conocientos varios comandos de la terminal que nos sirven para abrir pyhton en segundo plano, esto nos permite seguir escribiendo en la terminal donde ejecutamos el idle para abrir python
+ALgunos comandos que vimos fueron los siguientes:
+\begin{enumerate}
+	\item ctrl c: termina el programa
+	\item kill -9 mata el programa que se esta ejecutando
+	\item chmod +x "nombre de un archivo" para darle los permisos, es decir, leer, escribir, ejecutar etc
+	\item find . -name "*.es" nos muestra todos los archivos .py que tengamos en la carpeta en que estemos ubicados
+	\item where is python nos muestra el lugar donde se encuentra pyhton
+\end{enumerate}
+Proseguimos la clase hablando de objetos y metodos con las siguientes definiciones:\\
+Un objeto es un conjunto de datos y funciones relacionadas que posee caracteristicas. Un objeto puede ser un árbol, como caracteristica tiene hojas\\
+Metodo es una acción que realiza el objeto, continuando con el ejemplo del árbol, este realiza la acción de alimentarse mediante el método de la fotosintesis. \\
+Clase: una clase es un conjunto para la creación de objetos de datos según un modelo predefinido.
+
+Continuamos la clase trabajando con python, el profesor nos inidico que debemos iniciar los trabajos en python de la siguiente manera:\\
+
+\#!/usr/bin/python2.7\\
+\# -*- coding: utf-8 -*-\\
+"""\\
+Jorge S Martínez Villafan, 418003839\\
+Herramientas computacionales\\
+Lo que nos explico el miercoles\\
+"""\\
+Obviamente este es mi caso, los demás deberan llenarlo con sus datos.
+Continuamos la clase trabajando con import math sqrt para poder sacar la raíz cuadrada de un numero, en ese caso era la del número 16. Hicimos un ejercicio llamado Ulam, que se trata sobre si es par dividir en dos, si es impar multiplicarl por 3 y añadirle uno. \\
+Una vez terminamos de trabjar con Python, nuevamente fue turno de Karla quién nos habló un poco sobre TeXstudio, pero el tiempo no nos dejó avanzar mucho. La próxima clase la iniciaría ella.
+
+\chapter{Clase número nueve}
+\textbf La clase número nueve, por primera vez fue iniciada por la ayudante Karla. Iniciamos aprendiendo a poner tablas en TeXstudio, hicimos una tabla en la cual iba seccionada con algunos carácteres como las barras del valor absoluto encerrado a una C, para crear una columna, o escribiendo hline para poner una línea horizontal
+Continuamos descubriendo nuevos paquetes del TeXstudio, por ejemplo:
+\begin{enumerate}
+	\item documentclass{book}, sirve para darle formato de libro al archivo que estamos haciendo
+	\item usepackage[spanish]{babel}, sirve para que nos lanze en español las secciones que el libro crea
+	\item usepackage{biblatex} para crear la bibliografia
+	\item usepackage{hyperref} nos permite poder hacer un enlace a un link deseado
+\end{enumerate}
+Algunos otros comandos que conocimos de Latex en aquella clase fueron: 
+\begin{enumerate}
+	\item section*{Introdución} con el uso de astedisco hace aparecer un número de conteo
+	\item url, sirve para poder crear un enlace a un link, similar al "hyperref"
+	\item chapter, sirve para poder crear nuevos caítulos dentro del libro
+	\item begin{verbatim}, este tiene un uso muy importante, nos permite leer un código de python (desconozco si funciona para otros lenguajes de programación), tal y como fue escrito, sin que TeXstudio nos marque error por carácteres propios del programa
+	\item input, sirve para poder abrir un documento dentro de TeXstudio
+\end{enumerate}
+Una vez terminamos la parte de LateX, fue turno del profesor, quién nos preguntó cómo nos fue con la tarea de los diez problemas que dejó la clase pasada, a la mayoría le fue mal, así que el profesor empezó a resolver el primer problema, el del máximo común divisor por el método de euclides.\\
+Primero planteó el problema en el pizarrón y con ayuda del grupo fue dandole forma a lo que sería el código. \\
+El código tan solo utilizaba una definición, un while y un return.\\
+En el archivo que lleva la S, nos enseño que solo bastaba con importar la def utilizada en el código, y con ayuda de input podíamos hacer interactivo el programa\\
+
+Nos pidió terminar los diez problemas que habían quedado de tarea.
+La clase finalizó
+
+\chapter{Clase número diez}
+\textbf Empezamos la clase número diez resolviendo dudas acerca de la tarea que fue dejada en días pasadas. Utilizamos nuevos comandos en el sheel:
+\begin{enumerate}
+	\item += sirve para hacer una suma y arroje el resultado
+	\item != sirve como "diferente de"
+	\item *= sirve para hacer una multiplicación y arroje el resultado
+	\item /= sirve para hacer una divisisón y arroje el resultado
+	\item bool sirve para saber que contiene una cadena, da falso si es vacia, da true si tiene algo. También se puede hacer una asignación previa, bool de la asignación dará truesi si el valor de la asignación es distinto de 0, de lo contrario dará false
+	\item L.append para agregar elementos a un lista, es del tipo objeto metodo
+	\item L.append /([]) para meter una lista dentro de otra
+	\item L[X] Para saber el elemento numero del indice x 
+	\item len(l) Para saber cuantos elementos tiene una lista
+	\item L[X].append Se puede agregar más valores a la lista dentro de otra lista
+	\item L.insert s para agregar algo antes del indice que queramos, el indice es la posición de un elemento de la lista
+	\item r=L.pop() se saca el ultimo elemento de la lista
+	\item r=L.pop(x) elimina el elemento del indice x
+	\item L.extend es para agregar varios elementos a la lista
+	
+\end{enumerate} 
+Continuamos la clase y el profesor nos pidió hacer un ejercicio con while, bool, para poder vaciar una lista.\\ 
+También quedó claro que un indice se empieza a correr desde 0,1,2... y un posición corre desde 1,2,... por lo tanto el numero de indice siempre es el numero de posición menos uno\\
+
+El profesor nos pidió agregar a los diez problemas algo de las listas visto hoy.\\
+Empezamos a trabajar con el ejercicio de convertir los grados celsius en farenheit y viceversa. Hicimos el mismo ejercicio pero en lugar de while se uso for \\
+Y después se hizo interactivo, para meter los valores, input y suplirlo por la lista\\
+Posteriormente empezamos a trabajar con el metodo range(X) crea una lista con los indices de tamaño x
+Se puede dar un intervalo con range x, es un intervalo abierto como en matemáticas\\
+Ejemplo: for C in range(-20,45,5) gradosC.append(C): crea una lista desde menos 20 a 40 de 5 enn cinco\\
+De tarea quedó definir la funcion range f. \\
+La segunda semana del curso finalizó.
+
+\chapter{Clase número once}
+
+\textbf En la clase numero once del curso iniciamos pregutandole dudas al profesor de los 10 problemas que debía resolverse con listas.
+Posteriormente el profesor nos enseñó a sacar promedios utilizando las listas, teníamos que recorrer la lista con el metodo 	\color{blue}for i in "nombre" \color{black}, después dimos una asignación de a la letra r para que en ella se asignara lo que deseabamos. Y volvivimos a utilizar \color{blue} for in \color{black} para hacer que el valor fuera recorriendo la lista y la asignación r cabiaria su a ella misma más el valor.\\
+Para que el resultado de la división nos diera un decimal, de ser el caso que así fuera utilizamos el comando \color{blue} Float, \color{black} dividido por \color{blue} len \color{black} que es la longitud de la lista.\\
+
+Hicimos una archivo llamado \color{blue} gitignore \color{black}para poder evitar que se suabar archivos no deseados como:
+\begin{enumerate}
+	\item .aux 
+	\item .pdf 
+	\item.syntec.gz 
+	\item .pyc
+\end{enumerate}
+Continuamos trabajando por python y nos enseñó el comando \color{blue} for in \color{black} que debemos usar una i porque generalemente usamos esta letra para contar.\\
+
+Nos explicó cuales son las sumas superiores e inferiores para las integrales y nos pidió calcular la área de 2x+5x\^2-6x\^3+12
+de [a,b].\\
+
+\color{blue}range[(len)]\color{black}, significa que len está anidado a range y primero se ejecuta len, después range
+
+No pidiio que de tarea checaramos para que sirven los demas L. y hacer un ejempolo con ellos
+
+\color{blue}Enumerate \color{black} da el indice y el valor de la lista en ese indice\\
+Los corchetes sirven para acceder a un elemento de un lista o definir una lista\\
+Una \color{red}tupla \color{black} es como una lista donde no se pueden cambiar los elementos \\
+Para finalizar nos pidió hacer una lista con varias litas dentro con los valores de farenheit en centigrados\\
+
+\chapter{Clase número doce} 
+\textbf La clase numero doce del curso se inicio hablando de las listas, de algunos comandos que ya habíamosvisto pero también de otras funciones que no habíamos visto previamente. Trabajamos con un archivo de python en donde debíamos utilizar varias listas, con el comando \color{blue} pprint \color{black} le dimos una distinta forma a la manera en cómo se se mostraban las listas en el sheel al correr el código\\
+Posteriormente empezamos a utilizar nuevos comandos para las listas: 
+\begin{enumerate}
+	\item \color{green}L[X:] \color{orange} Muestra los valores a partir del indice x
+	\item \color{green} L[X:Y] \color{orange} Muestra los valores desde el indice X hasta el indice Y \color{black}
+	\item \color{green} L[:Y] \color{orange} Muestra los valores anteriores al indice Y \color{black} 
+	\item \color{green} L[1,-1] \color{orange} Muestra todos los valores excepto el primero y el último \color{black}
+	\item \color{green} L[-Y] \color{orange} Las listas de cierto modo tienen una forma circula, con este comando el programa contaría hasta el indice -Y y mostraría su valor \color{black}
+	\item L1=L[:] \color{orange} Creará una nueva lista independiente \color{black}
+	\item \color{green} for in range \color{orange} Recorre la lista por sus indices \color{black}
+	\item \color{green} for in "lista" \color{orange} Recorre la lista por sus valores \color{black}
+	\item \color{green} [i][j] \color{orange} pide el j-ésimo elemento dentro de la i-ésima lista 
+\end{enumerate}
+\color{black} Continuamos haciendo un ejercicio en donde se debían crear varias listas dentro de una lista. En el ejercicio nos pedía que hicieramos una lista dentro de élla, el semestre, el nombre del alumno, sus materias, su promedio, las asistencias, tarea y examenes. Aprendimos que una coma al final omite el salto de línea\\
+
+Empezamos a trabajar con TeXstudio y Karla nos enseñó a hacer diapositivas tipo "powerpoint" dentro del programa, utilizamos los siguientes paquetes y comandos para hacer la diapositiva
+\begin{enumerate}
+	\item \color{green} documentclass{beamer} \color{orange} para poder trabajar con diapostivas \color{black}
+	\item \color{green} usetheme{nombre} \color{orange} sirven para poder utilizar temas predeterminados dentro del programa (la mayoria son azules y similares) \color{black}
+	\item \color{green} begin{frame} \color{orange} para poder crear un nuevo cuadro de diapostiva \color{black}
+	\item \color{green} frametitle \color{orange} para titular la diapositiva previamente creada \color{black}
+	\item \color{green} trans \color{orange} para cambiar el estilo en que se pasa de un cuadro de diapositiva a otro \color{black}
+\end{enumerate}
+
+\chapter{Clase número trece}
+\textbf Iniciamos la clase leyendo los problemas de la pagina 58 del libro python facil, el profesor nos pidió que leyeramos los probleas y ver si lo podriamos resolverlos o no.\\
+Hubo problemas con el ejercicio de las matrices porque no lo hermos visto.\\ 
+También el salon en general le pidió ayuda con el ejercicio del laberinto que tambíen utilizaba matrices. Con ayuda de todo el grupo el profesor nos explicó como se debe resolver con 4 pasos. Desde situarse en la entrada, pedirle que avance, hacia el frente, si puede, sino dar ordenes que explore por otros caminos como arriba, abajo, o atras, con preguntas como: ¿Ya llegué a la salida? y ¿puedo avanzar?.\\
+
+Se disciutió acerca de si puede existir una lista infinita en una computadora, la mayoria estuvo de acuerdo de que no porque en la computadora los reales no existen, y los recursos de una computadora son finitos, pero se podría hacer un programa que arroje datos hasta que se le dé la indicación de parar con el comando \color{blue}ctrl + c \color{black}. En el libro python fácil venía un ejercicio en el cual se realiza una "lista infinita", la copiamos y tratamos de correr, algunos tuvieron problemas pero otros pocos pudieron correrla realizando algunas modificaciones.\\
+Los 8 problemas del libro python facil quedaron de tarea\\
+El profesor empezó a resolver el problema de fibonacci de manera recursiva, no sin antes enseñarnos lo qué es una formula recurisiva, es decir, una formula que está definida en terminos de ella misma.\\
+También se resolvió la suma de n de manera recursiva \\
+Le pregunté hacerca del juedo "Los postes de hanoi" y el profesor explicó en qué cosite el juego: Se tienen 3 postes un con discos de distitos tamañanos, ordenados desde el mayor a menor tamaño, utilizando uno de los postes vacios como auxiliar, se deben pasar los discos de un poste a otro, pero no deben quedar un disco mayor encima de un disco menor. \\
+Dio una idea de cómo se puede resolver utilizando python, los postes seran listas, los discos seran numeros uno mayor que otro. Los discos de numero 0 equivaldra a que no hay discos en la torres de hanoi.\\
+Nos pidipo hacer que una lista muetre el primer elemento primero y después el resto mediante una forma recursiva, muchos tuvimos problemas al generar el codigo, el profesor terminó dando la respuesta y al salón le quedó claro\\
+
+Solo existen los variables en ambitos de validesm las variables locales y variables locales\\
+Las variables locales cuando la variable pertenece a una funcion\\
+Las variables globales todas las funciones responden a la variable\\
+Continuamos la clase y el profesor nos mostró en el tiger una página que sirve para poder correr un codigo en python  y otros lenguajes de programación y poder ver en tiempo real cómo el programa se va ejecutando\\
+La página es la siguiente: url http://www.pythontutor.com/visualize.html
+
+La clase finalizó
+
+\chapter{Clase número catorce}
+ 
+\textbf Empezamos la clase numero catorce resolviendo dudas de la tarea de los ejercicios de la clase\\
+Le pedimos ayuda al profesor para resolver el problema del laberinto  y explicó nuevamente cómo debía de hacerse, y con los pasos que siempre se utilizaban en el curso, desde analizar, ejemplificar, codificar etc.\\
+De la pizarra pasamos a la computadora y nos fue guiando como es que debe de resolverse:\\
+El codigo fue el siguiente: \\
+\begin{verbatim}
+
+def resolver(L,e):
+print e
+n = len(L[0])
+m = len(L)
+x = e[0]
+y = e[1]
+if y==n-1 or x == m-1: 
+return e[0]+1,e[1]+1
+else:
+if L[x][y+1] == False:
+e = [x, y+1]
+return resolver(L,e)
+elif L[x+1][y] == False:
+e=[x+1,y]
+return resolver(L,e)
+else:
+print ("ya no puede avanzar mas")
+
+L= [[True, True, True, True],
+[False, False, False,True],
+[True, True, False, True]]  
+e=[1,0]
+r=resolver(L,e)
+import numpy as np
+print(np.matrix(L))
+\end{verbatim}
+Con algunas condiciones más dentro del laberinto el profesor nos pidió que trataramos de generar el codigo para poder resolver laberintos más complejos\\
+
+Empezamos a trabajar con una problema sobre las cadenas de ADN y generamos el siguiente código 
+\begin{verbatim}
+
+def contar_v1(adn, base):
+adn=list(adn)
+i= 0
+for c in adn:
+if c == base:
+i += 1
+return i
+
+def contar_v2(adn, base):
+adn=list(adn)
+i= 0
+for c in adn:
+if c == base:
+i += 1
+return i
+
+def contar_v3(adn, base):
+i= 0
+for j in range(len(adn)):
+if adn[j] == base:
+i += 1
+return i
+
+def contar_v4(adn, base):
+adn=list(adn)
+i = 0
+j = 0 
+while j < len(adn):
+if adn[j] == base:
+i += 1
+j +=1
+return i
+
+adn="ATGCGACCTAT"
+base="C"
+print contar_v1(adn, base)
+print contar_v2(adn, base)
+
+n= contar_v2(adn, base)
+print n
+print "%s aparece %d en %s" % (base, n, adn)
+print "{base} aparece {n} veces en {adn}" .format(base=base, n=n, adn=adn)
+print contar_v2(adn, base)
+print contar_v3(adn, base)
+print contar_v4(adn, base)
+\end{verbatim}
+Este codigo nos sirvió para que nos explicara lo que hace el comando \color{blue} sum \color{black} que sobre una lista bool solo nos devuelves los valores que son "True"\\
+
+La penultima clase del curso finalizó.
+
+\begin{thebibliography}{9}
+%\bibitem{Computación}
+Autor Jorge Salvador Martínez Villafan\\
+\textit{Cualquier cosa} 2019
+\end{thebibliography}
+	
+	
+\end{thebibliography}
+
+\end{document}
+
+

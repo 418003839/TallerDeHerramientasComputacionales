@@ -1,0 +1,46 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+
+%Aquí inicia la portada de mi documentos
+\title{\Huge Taller de Herramientas Computacionaes}
+\author{Jorge S. Martínez Villafan}
+\date{Enero 22, 2019}
+
+\begin{document}
+\maketitle
+\newpage
+\title{Clase número doce}
+
+\textbf La clase numero doce del curso se inicio hablando de las listas, de algunos comandos que ya habíamosvisto pero también de otras funciones que no habíamos visto previamente. Trabajamos con un archivo de python en donde debíamos utilizar varias listas, con el comando \color{blue} pprint \color{black} le dimos una distinta forma a la manera en cómo se se mostraban las listas en el sheel al correr el código\\
+Posteriormente empezamos a utilizar nuevos comandos para las listas: 
+\begin{enumerate}
+\item \color{green}L[X:] \color{orange} Muestra los valores a partir del indice x
+\item \color{green} L[X:Y] \color{orange} Muestra los valores desde el indice X hasta el indice Y \color{black}
+\item \color{green} L[:Y] \color{orange} Muestra los valores anteriores al indice Y \color{black} 
+\item \color{green} L[1,-1] \color{orange} Muestra todos los valores excepto el primero y el último \color{black}
+\item \color{green} L[-Y] \color{orange} Las listas de cierto modo tienen una forma circula, con este comando el programa contaría hasta el indice -Y y mostraría su valor \color{black}
+\item L1=L[:] \color{orange} Creará una nueva lista independiente \color{black}
+\item \color{green} for in range \color{orange} Recorre la lista por sus indices \color{black}
+\item \color{green} for in "lista" \color{orange} Recorre la lista por sus valores \color{black}
+\item \color{green} [i][j] \color{orange} pide el j-ésimo elemento dentro de la i-ésima lista 
+\end{enumerate}
+\color{black} Continuamos haciendo un ejercicio en donde se debían crear varias listas dentro de una lista. En el ejercicio nos pedía que hicieramos una lista dentro de élla, el semestre, el nombre del alumno, sus materias, su promedio, las asistencias, tarea y examenes. Aprendimos que una coma al final omite el salto de línea\\
+
+Empezamos a trabajar con TeXstudio y Karla nos enseñó a hacer diapositivas tipo "powerpoint" dentro del programa, utilizamos los siguientes paquetes y comandos para hacer la diapositiva
+\begin{enumerate}
+\item \color{green} documentclass{beamer} \color{orange} para poder trabajar con diapostivas \color{black}
+\item \color{green} usetheme{nombre} \color{orange} sirven para poder utilizar temas predeterminados dentro del programa (la mayoria son azules y similares) \color{black}
+\item \color{green} begin{frame} \color{orange} para poder crear un nuevo cuadro de diapostiva \color{black}
+\item \color{green} frametitle \color{orange} para titular la diapositiva previamente creada \color{black}
+\item \color{green} trans \color{orange} para cambiar el estilo en que se pasa de un cuadro de diapositiva a otro \color{black}
+\end{enumerate}
+La clase numero doce finalizó
+%Utilizo \\ para hacer un salto de línea
+%Utilizo \color{color} para cambiar de color a las letras
+%utilizo \begin{enumerate} para hacer una lista enumerada
+
+\end{document}
