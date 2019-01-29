@@ -1,9 +1,10 @@
 \documentclass{book}
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage{biblatex}
+%\usepackage{biblatex}
 \usepackage{hyperref}
 \usepackage{xcolor}
+\usepackage{enumitem}
 
 \title{ Taller de Herramientas Computacionaes}
 \author{Jorge S. Martínez Villafan}
@@ -18,35 +19,6 @@
 
 \chapter{Clase uno}
 \section{Bitacora de la clase número uno}
-\chapter{Clase dos}
-\section{Bitacora de la clase número dos}
-\chapter{Clase tres}
-\section{Bitacora de la clase número tres}
-\chapter{Clase cuatro}
-\section{Bitacora de la clase número cuatro}
-\chapter{Clase cinco}
-\section{Bitacora de la clase número cinco}
-\chapter{Clase seis}
-\section{Bitacora de la clase número seis}
-\chapter{Clase siete}
-\section{Bitacora de la clase número siete}
-\chapter{Clase ocho}
-\section{Bitacora de la clase número ocho}
-\chapter{Clase nueve}
-\section{Bitacora de la clase número nueve}
-\chapter{Clase diez}
-\section{Bitacora de la clase número diez}
-\chapter{Clase once}
-\section{Bitacora de la clase número once}
-\chapter{Clase doce}
-\section{Bitacora de la clase número doce}
-\chapter{Clase trece}
-\section{Bitacora de la clase número trece}
-\chapter{Clase catorce}
-\section{Bitacora de la clase número catorce}
-
-%Aquí inician los capitulos del lubro
-\chapter{Clase numero uno}
 \textbf{Lo que hice en esta primera clase del curso fue:}
 \begin{enumerate}
 	\item  El curso conta de lo siguiente:
@@ -78,7 +50,8 @@
 	\end{enumerate}
 \end{enumerate}	
 
-\chapter{Clase número dos}
+\chapter{Clase dos}
+\section{Bitacora de la clase número dos}
 \textbf{En el segundo día del curso iniciamos probando los comando que vimos en el día anterior, pudimos saber la utilidad  de varios comandos como:}
 
 
@@ -130,9 +103,11 @@
 		\item usuario
 		\item contraseña
 	\end{enumerate}
+\end{enumerate}
 
+\chapter{Clase tres}
+\section{Bitacora de la clase número tres}
 
-\chapter{Clase número tres}
 \textbf{Al inicio de la tercer clase del curso se empezó a hablar de los servidores y sus clientes, por ejemplo Faceebook o el mismo github}
 
 Se hablaron sobre las distintas terminaciones de algunos archivos, por ejemplo los archivos generados en Latex deben ir terminados con un .tex y los archivos generados en Python con un .py
@@ -155,7 +130,8 @@ Posteriormente vimos lo que era el "vi" que crea un documento y creamos un readm
 
 La clase finalizó con el profesor pidiendonos llevar un problema de fisica para la clase próxima.
 
-\chapter{Clase numero cuatro}
+\chapter{Clase cuatro}
+\section{Bitacora de la clase número cuatro}
 \textbf La cuarta clase del curso la iniciamos trabajando con un problema en que el profesor llevo, similar al que nos había encargado la clase pásada, en él nos pedían determinar la posición de un objeto si sabemos la formula para calcularla. El profesor desglosó cada asunto que se pudiera presentar en el problema, desde si podía ser negativa, como su función. La analizó desde un punto matemático como desde un objeto para darle explicaciones a la computadora de lo que debe hacer. El profesor hizo un gran enfasis en esto ultimo ya que la computadora entiende exactamente lo que se le dice, es por ello que debemos ser claros y explicar detalladamente lo que queremos que haga
 
 Las personas que no utilizaban las maquinas de la escuela tuvieron que instalar python. Fedora ya viene con python pero para poder abrirlo se deben escribir en la terminal el siguiente comando: \$] dnf install pyhton tools \\ 
@@ -164,18 +140,22 @@ Una vez con python todos, pudimos ver la versión de python escibiendo el comand
 Posteriormente abrimos pyton para meter la formula del problema del profesor, pyton se abre con el comando "idle" en la terminal. Cuando abrimos pyton prosedimos a meter los datos que teníamos, hubo un pequeño problema con el resultado debido a que pyton nos arrojaba divisiones enteras, para arreglar este problema solo se debe agredar un .0 después del divisor o dividendo. 
 Durante la resolución del ejercicio el profesor nos dio varios tips acerca de como escribir en pyton por ejemplo para agregar un comentario éste debe ser presedido por el signo gato (\#), o para escribir en español correctamente, es decir, que pyton reconozca caracteres que en el inglés no existen, como la dieresis o las tildes, se debe agregar al inicio el siguiente código: \#\_*\_ conding: uft-8 \_*\_
 También nos enseñó que para correr un códgio en pyton debe ir precedido por el comando print
-La clase porsiguió con el profesor dandonos instruciones sobre como realizar una cadena en pyton  
-\begin{enumerate}
-	\item Comilla simple '' sirve para crear una cadena de texto de una línea
-	\item Comilla doble "" sirve para crea una cadena de texto de una línea
-	\item Comilla triple "' sirve para crea una cadena de texto multiple
-	\item ln: para salto de línea
-	
-	NOTA: una cadena es un conjunto de caracteres en pyton que están delimitados por una comilla o comilla doble
-	
-	La clase finalizó realizando la tarea en el salón, con el problema que nos encargó en la clase numero tres debíamos generar un codigo para resolverlo de una manera similar al problema que el profesor resolvió durante la clase. Una vez hecho se subió como es acostumbrado a github.
+La clase prosiguió con el profesor dandonos instruciones sobre como realizar una cadena en pyton  
 
-\chapter{Clase numero cinco}
+\begin{enumerate}
+	\item Comilla simple  sirve para crear una cadena de texto de una línea
+	\item Comilla doble  sirve para crea una cadena de texto de una línea
+	\item Comilla triple  sirve para crea una cadena de texto multiple
+	\item ln: para salto de línea
+\end{enumerate}
+
+NOTA: una cadena es un conjunto de caracteres en pyton que están delimitados por una comilla o comilla doble
+
+La clase finalizó realizando la tarea en el salón, con el problema que nos encargó en la clase numero tres debíamos generar un codigo para resolverlo de una manera similar al problema que el profesor resolvió durante la clase. Una vez hecho se subió como es acostumbrado a github.
+
+\chapter{Clase cinco}
+\section{Bitacora de la clase número cinco}
+
 \textbf En la clase numero cinco vimos varios comandos de python, que básicamente la explicación de ellos podría resumir gran parte de la clase, los comando fueron los siguientes:
 \begin{enumerate}
 	\item \$] print que sirve para mostrar lo que pedimos, el profesor suele explicarlo, como "piensa en un numero y dime cuál es"
@@ -207,7 +187,9 @@ y nos empezó a decir los comandos y para qué sirve cada uno
 \end{enumerate}
 Y eso fue lo último que hicimos en la primer semana del curso
 
-\chapter{Clase número seis}
+\chapter{Clase seis}
+\section{Bitacora de la clase número seis}
+
 \textbf La cuarta clase del curso inició con un probelma, trata de encontrar la raíz cuadrada de un, el problema radicaba en encontrar la raíz de equis, si tenemos dos  figuras geometricas de área "X", la primera era un cuadrado con los lados raíz de equis y la segunda un rectangulo de altura equis y base 1. Todo el grupo dio diversas sugerencias para poder encontrar el valor de equis, finalmente el profe dio el metodo para encontrar el valor de dicha incognita. Haciendo un gran enfasís que en las computadoras es dificíl encontrar el valor exacto, pero podemos encontrar una aproximación precisa que nos sirva (en realidad creo que esto sucede en las computadora y en los humanos ya que nunca sabemos el valor de un numero racional raíz de dos o pi, son algunos ejemplos en donde no se utilizan los valores exactos, solo aproximaciones).\\
 La clase prosiguió con un problema en pyhon, donde definimos una función llamada "vAbsoluto", es decir, el valor absoluto, este ejercicio sirvió como ejemplo para poder utilizar dos comandos muy utiles en python el
 \begin{enumerate}
@@ -225,7 +207,8 @@ También vimos el comando import que sirve para mostrar lo que deseemos en el ba
 Después de haber explicado el uso de if y else el profesor nos puso un ejercicio, donde se tenía una diana infinita y al arrojar los dardos nos arrojaba un valor dependiendo del las condernas tanto en x como en y que hubiesemos sacado\\
 La clase finalizó con el profesor dejandonos una tarea del mismo problema de la diana pero con más condiciones, si en el centro de la diana hubiera un circulo de radio 10 y fuera de éste el valor que nos arrojara fuera 100, pero estando delimitado por las otras coordenadas.
 
-\chapter{Clase número siete}
+\chapter{Clase siete}
+\section{Bitacora de la clase número siete}
 \textbf La clase numero siete del curso del Taller de Herramientas Computacionales fue el día martes.
 Esta clase inició con ejemplos de como utilizar estructuras de repetición, en este caso se utlizó el comando "while", este comando se encarga de formar un ciclo, primero evalua si la condición dada fue cierta el ciclo se repetirá hasta que le digamos que pare. \\
 Los comando if y else que vimos una clase pásada son muy utiles a la hora de utilizar while, se le puede dar una condición con if para que el ciclo se repita si el "if" fue cierto (aunque realmente también se podría si fue falso), y poner un else para, por ejemplo detener el ciclo. \\
@@ -249,8 +232,8 @@ Dejando de lado lo de la imagen, nos enfocamos en cómo colocar expresiones mate
 	
 \end{enumerate}
 La clase finalizó
-
-\chapter{Clase número ocho}
+\chapter{Clase ocho}
+\section{Bitacora de la clase número ocho}
 \textbf En la clase del miercoles, es decir la clase numero siete del curso iniciamos conocientos varios comandos de la terminal que nos sirven para abrir pyhton en segundo plano, esto nos permite seguir escribiendo en la terminal donde ejecutamos el idle para abrir python
 ALgunos comandos que vimos fueron los siguientes:
 \begin{enumerate}
@@ -277,8 +260,8 @@ Lo que nos explico el miercoles\\
 Obviamente este es mi caso, los demás deberan llenarlo con sus datos.
 Continuamos la clase trabajando con import math sqrt para poder sacar la raíz cuadrada de un numero, en ese caso era la del número 16. Hicimos un ejercicio llamado Ulam, que se trata sobre si es par dividir en dos, si es impar multiplicarl por 3 y añadirle uno. \\
 Una vez terminamos de trabjar con Python, nuevamente fue turno de Karla quién nos habló un poco sobre TeXstudio, pero el tiempo no nos dejó avanzar mucho. La próxima clase la iniciaría ella.
-
-\chapter{Clase número nueve}
+\chapter{Clase nueve}
+\section{Bitacora de la clase número nueve}
 \textbf La clase número nueve, por primera vez fue iniciada por la ayudante Karla. Iniciamos aprendiendo a poner tablas en TeXstudio, hicimos una tabla en la cual iba seccionada con algunos carácteres como las barras del valor absoluto encerrado a una C, para crear una columna, o escribiendo hline para poner una línea horizontal
 Continuamos descubriendo nuevos paquetes del TeXstudio, por ejemplo:
 \begin{enumerate}
@@ -303,7 +286,9 @@ En el archivo que lleva la S, nos enseño que solo bastaba con importar la def u
 Nos pidió terminar los diez problemas que habían quedado de tarea.
 La clase finalizó
 
-\chapter{Clase número diez}
+\chapter{Clase diez}
+\section{Bitacora de la clase número diez}
+
 \textbf Empezamos la clase número diez resolviendo dudas acerca de la tarea que fue dejada en días pasadas. Utilizamos nuevos comandos en el sheel:
 \begin{enumerate}
 	\item += sirve para hacer una suma y arroje el resultado
@@ -334,8 +319,8 @@ Ejemplo: for C in range(-20,45,5) gradosC.append(C): crea una lista desde menos 
 De tarea quedó definir la funcion range f. \\
 La segunda semana del curso finalizó.
 
-\chapter{Clase número once}
-
+\chapter{Clase once}
+\section{Bitacora de la clase número once}
 \textbf En la clase numero once del curso iniciamos pregutandole dudas al profesor de los 10 problemas que debía resolverse con listas.
 Posteriormente el profesor nos enseñó a sacar promedios utilizando las listas, teníamos que recorrer la lista con el metodo 	\color{blue}for i in "nombre" \color{black}, después dimos una asignación de a la letra r para que en ella se asignara lo que deseabamos. Y volvivimos a utilizar \color{blue} for in \color{black} para hacer que el valor fuera recorriendo la lista y la asignación r cabiaria su a ella misma más el valor.\\
 Para que el resultado de la división nos diera un decimal, de ser el caso que así fuera utilizamos el comando \color{blue} Float, \color{black} dividido por \color{blue} len \color{black} que es la longitud de la lista.\\
@@ -361,7 +346,8 @@ Los corchetes sirven para acceder a un elemento de un lista o definir una lista\
 Una \color{red}tupla \color{black} es como una lista donde no se pueden cambiar los elementos \\
 Para finalizar nos pidió hacer una lista con varias litas dentro con los valores de farenheit en centigrados\\
 
-\chapter{Clase número doce} 
+\chapter{Clase doce}
+\section{Bitacora de la clase número doce}
 \textbf La clase numero doce del curso se inicio hablando de las listas, de algunos comandos que ya habíamosvisto pero también de otras funciones que no habíamos visto previamente. Trabajamos con un archivo de python en donde debíamos utilizar varias listas, con el comando \color{blue} pprint \color{black} le dimos una distinta forma a la manera en cómo se se mostraban las listas en el sheel al correr el código\\
 Posteriormente empezamos a utilizar nuevos comandos para las listas: 
 \begin{enumerate}
@@ -386,7 +372,9 @@ Empezamos a trabajar con TeXstudio y Karla nos enseñó a hacer diapositivas tip
 	\item \color{green} trans \color{orange} para cambiar el estilo en que se pasa de un cuadro de diapositiva a otro \color{black}
 \end{enumerate}
 
-\chapter{Clase número trece}
+\chapter{Clase trece}
+\section{Bitacora de la clase número trece}
+
 \textbf Iniciamos la clase leyendo los problemas de la pagina 58 del libro python facil, el profesor nos pidió que leyeramos los probleas y ver si lo podriamos resolverlos o no.\\
 Hubo problemas con el ejercicio de las matrices porque no lo hermos visto.\\ 
 También el salon en general le pidió ayuda con el ejercicio del laberinto que tambíen utilizaba matrices. Con ayuda de todo el grupo el profesor nos explicó como se debe resolver con 4 pasos. Desde situarse en la entrada, pedirle que avance, hacia el frente, si puede, sino dar ordenes que explore por otros caminos como arriba, abajo, o atras, con preguntas como: ¿Ya llegué a la salida? y ¿puedo avanzar?.\\
@@ -407,7 +395,8 @@ La página es la siguiente: url http://www.pythontutor.com/visualize.html
 
 La clase finalizó
 
-\chapter{Clase número catorce}
+\chapter{Clase catorce}
+\section{Bitacora de la clase número catorce}
  
 \textbf Empezamos la clase numero catorce resolviendo dudas de la tarea de los ejercicios de la clase\\
 Le pedimos ayuda al profesor para resolver el problema del laberinto  y explicó nuevamente cómo debía de hacerse, y con los pasos que siempre se utilizaban en el curso, desde analizar, ejemplificar, codificar etc.\\
@@ -503,7 +492,7 @@ Autor Jorge Salvador Martínez Villafan\\
 \end{thebibliography}
 	
 	
-\end{thebibliography}
+
 
 \end{document}
 
